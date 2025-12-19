@@ -1,0 +1,26 @@
+{
+    "organization_name": "The Johansson",
+    "organization_unitname": "IT",
+    "country_name": "US",
+    "state_or_province_name": "Texas",
+    "locality_name": "Round Rock",
+
+    "ca_common_name": "The Johansson Root CA",
+    "ca_private_key_path": "tj_root_ca.key",
+    "ca_certificate_path": "tj_root_ca.crt",
+    "ca_validity_age": 3650,
+
+    "sub_ca_common_name": "Margarita Loop Sub CA",
+    "sub_ca_private_key_path": "tj_bb_sub_ca.key",
+    "sub_ca_certificate_path": "tj_bb_sub_ca.crt",
+    "ca_chain_path": "tj_bb_chain.pem",
+
+    "sub_ca_validity_age": 1825,
+
+    "root_domain_name": "thejohansson.com",
+    "sub_domain_name": "bb.thejohansson.com",
+    "host_name": "host",
+
+    "host_validity_age": 365
+
+}
