@@ -31,7 +31,7 @@ parser.add_argument("-ip", "--host_ip_address", default="", help="Host IP Addres
 
 parser.add_argument("--support_dir", default="support_files", help=SUPPRESS)
 parser.add_argument("--ca_dir", default="pki", help=SUPPRESS)
-parser.add_argument("--config_file", default="certificate_config_ml.json", help=SUPPRESS)
+parser.add_argument("--config_file", default="certificate_config_bb.json", help=SUPPRESS)
 parser.add_argument("--debug", action="store_true", help=SUPPRESS)
 
 if len(sys.argv) == 1:
